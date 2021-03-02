@@ -1,0 +1,138 @@
+body, html {
+  height: 100%;
+}
+
+body {
+  /* The image used */
+  background-image: url("images/background1.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+h1 {
+  text-align: center;
+  border: solid;
+  border-color: black;
+  background-color: cornsilk;
+  font-family: Helvetica;
+}
+
+h3 {
+  text-align: center;
+  background-color: cornsilk;
+  font-family: Helvetica;
+}
+
+p {
+  text-align: center;
+  background-color: cornsilk;
+  font-family: Helvetica;
+}
+
+#links {
+	text-align: center;
+	border: solid;
+	border-color: black;
+	background-color: cornsilk;
+	font-family: Helvetica;
+}
+
+#aboutus {
+	text-align: center;
+	border: solid;
+	border-color: black;
+	border-width: 3px;
+	background-color: cornsilk;
+	font-family: Helvetica;
+}
+
+#events {
+	text-align: center;
+	border: solid;
+	border-color: black;
+	background-color: cornsilk;
+	font-family: Helvetica;
+}
+
+#footercenter {
+	
+	text-align: center;
+	
+}
+
+#footer {
+	border: solid;
+	border-color: black;
+	border-width: 2px;
+	padding: 7px;
+	background-color: cornsilk;
+	display: inline; 
+}
+
+footer {
+	display: inline;
+}
+
+#footer2 {
+	position: absolute;
+	bottom: 130px;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	text-align: center;
+}
+
+#openinghours {
+	text-align: center;
+	border: solid;
+	border-color: black;
+	background-color: cornsilk;
+	font-family: Helvetica;
+	float: left;
+}
+
+#update {
+	margin-top: 5px;
+	text-align: center;
+	border: solid;
+	border-color: black;
+	background-color: cornsilk;
+	font-family: Helvetica;
+	float: left;
+}
+
+#milkshakes {
+	border: solid;
+	border-color: black;
+	background-color: #f89fdf;
+	float: right;
+}
+
+#centertitle {
+	border: solid;
+	border-color: black;
+	border-width: 2px;
+	padding: 7px;
+	background-color: cornsilk;
+	display: inline; 
+}
+
+#errorMessage {
+	color: red;
+	font-size: 90% !important;
+}
+	
+#successMessage {
+	color: green;
+	font-size: 90% !important;
+	display: none;
+	margin-bottom: 20px;
+}
